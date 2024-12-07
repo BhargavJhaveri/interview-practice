@@ -24,7 +24,7 @@ public class SelectionSort {
                 }
             }
 
-            //  We found ith smallest element. But we still need to retain the value that was present at index i.
+            //  We found the ith smallest element. But we still need to retain the value that was present at index i.
             // So we swap the value at index i, with other element.
             swap(a, i, minPtr);
         }
